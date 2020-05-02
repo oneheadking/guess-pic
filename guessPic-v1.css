@@ -1,0 +1,80 @@
+#wrapper {
+  display: flex;
+  margin: 20px auto;
+  flex-direction: row;
+  width: 606px;
+}
+
+.sDiv {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.solved{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.pic1Pic {
+  background-image: url("images/1.jpg");
+  background-size: 100% 100%;
+  width: 200px;
+  height: 200px;
+}
+.pic2Pic {
+  background-image: url("images/2.jpg");
+  background-size: 100% 100%;
+  width: 200px;
+  height: 200px;
+  /* display: none; */
+}
+.pic3Pic {
+  background-image: url("images/3.jpg");
+  background-size: 100% 100%;
+  width: 200px;
+  height: 200px;
+  /* display: none; */
+}
+.pic4Pic {
+  background-image: url("images/4.jpg");
+  background-size: 100% 100%;
+  width: 200px;
+  height: 200px;
+  /* display: none; */
+}
+.pic5Pic {
+  background-image: url("images/5.jpg");
+  background-size: 100% 100%;
+  width: 200px;
+  height: 200px;
+  /* display: none; */
+}
+
+.org {
+  background-color: yellow;
+  border: 1px solid black;
+}
